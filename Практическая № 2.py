@@ -12,8 +12,5 @@ while eps > 0.001:
   else:
     a = c
   eps = (b - a)/2
-  # print(f'a = {a}')
-  # print(f'b = {b}')
-  # print(f'eps = {eps}')
 solution = (a+b)/2
 print(solution)
